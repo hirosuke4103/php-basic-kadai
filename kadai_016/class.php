@@ -60,13 +60,20 @@ class Animal {
     public function set_height(int $height) {
         $this->height = $height;
     }
+    public function show_height() {
+        echo $this->height . '<br>';
+    }
+
     public function set_weight() {
         echo $this->weight . '<br>';
     }
+    public function show_weight() {
+        echo $this->weight . '<br>';
+    }
+    
     // 外に値を出す
     public function get_height() {
             return $this->height;
-    return $height;
     }
 }
 // インスタンス化する
@@ -78,5 +85,5 @@ $show_price = $Food->get_price();
 $show_height = $Animal->get_height();
 echo '<br>';
 echo 'price: ' .$show_price .'<br>';
-echo 'Height: ' .$show_height .'<br>';
+echo 'height: ' .$show_height .'<br>';
 ?>
