@@ -2,7 +2,7 @@
 // セッションを開始
 session_start();
 
-// セッションに保存された「お名前」を取得
+// セッションに保存された「社員名」を取得
 $name = isset($_SESSION['employee_name']) ? $_SESSION['employee_name'] : '名無し';
 ?>
 

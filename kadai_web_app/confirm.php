@@ -56,7 +56,7 @@ if (empty($errors)) {
             <th>入力内容</th>
         </tr>
         <tr>
-            <td>お名前</td>
+            <td>社員名</td>
             <td><?php echo $name; ?></td>
         </tr>
         <tr>
@@ -65,7 +65,7 @@ if (empty($errors)) {
         </tr>
 
         <tr>
-            <td>部署名</td>
+            <td>所属部署</td>
             <td><?php echo $department; ?></td>
         </tr>
         <tr>
