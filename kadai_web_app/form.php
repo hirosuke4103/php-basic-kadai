@@ -13,13 +13,13 @@
             <tr>
                 <td>社員名</td>
                 <td>
-                    <input type="text" name="employee_name" value="<?php echo isset($_COOKIE['name']) ? $_COOKIE['name'] : ''; ?>">
+                    <input type="text" name="employee_name" value="<?php echo isset($_COOKIE['employee_name']) ? $_COOKIE['employee_name'] : ''; ?>">
                 </td>
             </tr>
             <tr>
                 <td>年齢</td>
                 <td>
-                    <input type="text" name="employee_age" value="<?php echo isset($_COOKIE['age']) ? $_COOKIE['age'] : ''; ?>">
+                    <input type="text" name="employee_age" value="<?php echo isset($_COOKIE['employee_age']) ? $_COOKIE['employee_age'] : ''; ?>">
                 </td>
             </tr>
 

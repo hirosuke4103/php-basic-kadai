@@ -32,9 +32,9 @@ if (empty($errors)) {
   
 
     // クッキーを登録（有効期限は1時間）
-    setcookie('employee_name', $name, time() + 3600 );
-    setcookie('employee_age', $age, time() + 3600 );
-    setcookie('department', $department, time() + 3600 );
+    setcookie('employee_name', $name, time() - 3600 );
+    setcookie('employee_age', $age, time() - 3600 );
+    setcookie('department', $department, time() - 3600 );
 }
 ?>
 
